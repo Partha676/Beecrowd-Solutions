@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    float distance, feet, inches, cm;
+    scanf("%f", &distance);
+    cm = distance * 100;
+    inches = distance * 39.37;
+    feet = distance * 3.21;
+    printf("centimeter : %.2f\n", cm);
+    printf("inches : %.2f\n", inches);
+    printf("feet : %.2f\n", feet);
+    return 0;
+}
